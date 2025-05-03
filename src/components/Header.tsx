@@ -1,3 +1,5 @@
+import logoImg from '../assets/logo-Hound_Express-bg-white.png';
+
 import React from "react";
 
 const Header: React.FC = () => {
@@ -8,10 +10,11 @@ const Header: React.FC = () => {
         {/* Agrupamos logo y título */}
         <div className="header__brand">
           <img
-            src="/img/logo-Hound_Express-bg-white.png"
+            src={logoImg}
             alt="Logo Hound Express"
             className="header__logo"
           />
+
           <h1 className="header__title">Hound Express</h1>
         </div>
 

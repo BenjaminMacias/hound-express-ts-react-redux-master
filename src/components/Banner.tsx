@@ -1,3 +1,4 @@
+import enviosImg from '../assets/envios.png';
 import React from "react";
 
 const Banner: React.FC = () => {
@@ -8,7 +9,7 @@ const Banner: React.FC = () => {
       aria-labelledby="banner-title"
     >
       <img
-        src="/img/envios.png"
+        src={enviosImg}
         alt="Envíos Hound Express"
         className="banner__image"
       />
